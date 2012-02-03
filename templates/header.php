@@ -7,8 +7,8 @@
 	<title>Skiff</title>
 
 	<link rel="stylesheet" href="<?php echo $options['app_url']; ?>/css/default.css" type="text/css" media="screen" charset="utf-8">
-<?php if (file_exists("../themes/$list.css")): ?>
-<link rel="stylesheet" href="<?php echo $options['app_url']; ?>/themes/<?php echo $options['list']; ?>.css" type="text/css" media="screen" charset="utf-8">
+<?php if (file_exists("themes/$list.css")): ?>
+	<link rel="stylesheet" href="<?php echo $options['app_url']; ?>/themes/<?php echo $options['list']; ?>.css" type="text/css" media="screen" charset="utf-8">
 <?php endif; ?>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript" charset="utf-8"></script>
