@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 
-	<title>Skiff</title>
+	<title><?php echo $options['list']; ?> :: Skiff</title>
 
 	<link rel="stylesheet" href="<?php echo $options['app_url']; ?>/css/default.css" type="text/css" media="screen" charset="utf-8">
 <?php if (file_exists("themes/$list.css")): ?>
@@ -22,7 +22,7 @@
 
 <header id="search">
 	<div id="filter_container">
-		<div id="filter"><span class="clear">x</span><input type="text" autocapitalize="off" autocorrect="off" /></div>
+		<div id="filter"><span class="clear">×</span><input type="text" autocapitalize="off" autocorrect="off" /></div>
 	</div>
 	<h1><?php echo $options['list']; ?></h1>
 </header>
