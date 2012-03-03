@@ -23,3 +23,5 @@ article ul li:first-child	{ color: #000; }
 
 #filter .clear				{ float: right; color: rgba(255, 255, 255, 0.2); font-size: .8em; padding: 2px; margin-top: 2px; font-weight: bold; }
 #filter .clear:hover		{ color: #999; cursor: pointer; }
+
+code						{ font-family: Monaco, Courier, monospace; font-size: 1em; }

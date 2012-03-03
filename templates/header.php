@@ -16,6 +16,8 @@
 	<script src="<?php echo $options['app_url']; ?>/lib/jquery.isotope.min.js" type="text/javascript" charset="utf-8"></script>
 
 	<script src="<?php echo $options['app_url']; ?>/js/skiff.js" type="text/javascript" charset="utf-8"></script>
+
+	<link rel="shortcut icon" href="<?php echo $options['app_url']; ?>/images/favicon.png" />
 </head>
 
 <body>
